@@ -20,6 +20,12 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         self.navigationItem.title = "第一个页面"
 //        self.view .addSubview(self.addLable())
         
+        /**
+         
+         
+         */
+        
+        
         self.myTableView.frame = view.bounds;
         self.myTableView.delegate = self
         self.myTableView.dataSource = self
